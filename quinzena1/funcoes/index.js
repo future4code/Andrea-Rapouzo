@@ -60,8 +60,8 @@ const divisaoNumeros = (x,y) => {
     return x / y
 }
 
-const a = prompt("Digite o primeiro número")
-const b = prompt("Digite o segundo número")
+const a = Number(prompt("Digite o primeiro número"))
+const b = Number(prompt("Digite o segundo número"))
 
 console.log(`Números inseridos: ${a} e ${b}`)
 console.log(`Soma: ${somaNumeros(a, b)}`)
